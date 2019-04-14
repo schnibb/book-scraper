@@ -1,25 +1,25 @@
 {
   "name": "book-scraper",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "search for books through google books api and allow the user to save to ones that they link into MongoDB.",
+  "main": "server.js",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schnibb/book-scraper.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "david schnibben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schnibb/book-scraper/issues"
+  },
+  "homepage": "https://github.com/schnibb/book-scraper#readme"
 }
